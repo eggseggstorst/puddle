@@ -1,4 +1,4 @@
-var scene, camera, renderer, controls;
+// var scene, camera, renderer, controls;
 var container;
 var loader;
 var w = window.innerWidth;
@@ -140,7 +140,7 @@ function initCanvasTex(){
 	image.onload = function (){
 		ctx.drawImage(image, 0, 0);
 	}
-	image.src = "../img/rainbow.jpg";
+	image.src = "../img/check.jpg";
 
     tex = new THREE.Texture(canvasRenderer.domElement);
     // tex = new THREE.Texture(canvas);
