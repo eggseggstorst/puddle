@@ -64,7 +64,7 @@ function initCanvasTex(){
 		ctx.drawImage(image, 0, 0);
 	}
 	// image.src = "img/rb-grid.jpg";
-	image.src = "img/rgblcd.png";
+	image.src = "img/rainbow.jpg";
 
 
     tex = new THREE.Texture(canvas);
