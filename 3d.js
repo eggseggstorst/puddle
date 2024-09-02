@@ -140,7 +140,7 @@ function initCanvasTex(){
 	image.onload = function (){
 		ctx.drawImage(image, 0, 0);
 	}
-	image.src = "../img/check.jpg";
+	image.src = "../img/clouds.jpg";
 
     tex = new THREE.Texture(canvasRenderer.domElement);
     // tex = new THREE.Texture(canvas);
